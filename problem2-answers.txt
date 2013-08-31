@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf230
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww19240\viewh12460\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Marc Beitchman\
+cse544p\
+hw6\
+\
+I used a cluster of 5 high-cpu medium instances for this problem. Job details are in job details.zip in the 'problem2' folder.\
+\
+2.1) \
+\
+4 map-reduce jobs were generated when running the pig script for problem 2.\
+\
+2.2)\
+\
+The first job had 1 map task and 8 reduce tasks and took 14min and 40sec.\
+\
+The second job had 8 map tasks and 8 reduce tasks and took 33 secs\
+\
+The third job had 8 map tasks and 1 reduce task and took 23 seconds\
+\
+The fourth job had 8 map tasks and 8 reduce tasks and took 32 seconds\
+\
+2.3) \
+\
+All four jobs took 16 min 8 secs in cumulative runtime.\
+\
+There were 3 seconds between job 1 and job 2. There were 3 seconds between job 2 and job 3.\
+There were 4 seconds between job 3 and job 4.\
+\
+The total runtime including time between jobs finishing and starting was 16 min 8 seconds.\
+}
